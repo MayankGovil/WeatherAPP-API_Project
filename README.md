@@ -51,3 +51,15 @@ It is built using the Node.js package(
 here. The correct lat = 26.25672870 and lon = 73.01704420 but in response we get here { "status": false, "message": "Invalid latitude or longitude values."}
  e.g.2} I am swapping the value of the latitude & longitude of Jodhpur in response we can get { "status": false, "message": "Failed to fetch weather data"} or 
  we can get Weather data from a different city in response
+
+
+# Weather API Front-End
+
+1) Navigate to the "WeatherAPP" directory by passing the "cd WeatherAPP" command in terminal
+2) Pass the "npm i" command to install the dependencies 
+3) Packages used in the front part of this project{"axios": "^1.3.4", "bootstrap": "^5.3.3", "react": "^18.3.1", "react-bootstrap": "^2.10.4", "react-dom": "^18.3.1", etc}
+4) Start the React development server using "npm start"
+5) The Browser will navigate you to  " http://localhost:3000/ ". Enter latitude and longitude as shown in ScreenShot to fetch and display the weather data of the City.
+
+![Screenshot (2127)](https://github.com/MayankGovil/WeatherAPP-API_Project/assets/109503340/42078ac6-bff8-466a-8150-e78b7f739775)
+
